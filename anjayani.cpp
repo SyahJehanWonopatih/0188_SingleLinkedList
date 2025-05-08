@@ -129,6 +129,10 @@ int main() {    //memnaggil interger ke main
                          << " Data dengan nomor mahasiswa " << nim << " berhasil di hapus " << endl;
             }
             break;
+            case '3': { //membuat fungsi case 3
+                mhs.traverse();
+            }
+            break;
             
     }
 }
