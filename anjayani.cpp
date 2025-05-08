@@ -8,3 +8,9 @@ class node {
         node *next;
 };
 
+class SingelLinkedList {    //membuat class SingelLinkedList
+   
+};
+
+
+
