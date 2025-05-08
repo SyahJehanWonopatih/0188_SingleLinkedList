@@ -107,6 +107,11 @@ int main() {    //memnaggil interger ke main
              << "Masukkan pilihan (1-5) : ";
         cin >> ch;
         switch (ch) {
+            case '1': { //membuat fungsi case 1
+                mhs.addNode();
+            }
+            break;
+
             
     }
 }
