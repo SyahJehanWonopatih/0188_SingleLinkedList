@@ -74,9 +74,21 @@ class SingelLinkedList {    //membuat class SingelLinkedList
             return true;
         }
         
-        
-    };
-
+        void traverse() {   //membuat fungsi untuk menampilkan node
+            if (ListEmpty()) {
+                cout << "\nList kosong\n";
+            }
+        else {
+            cout << "\nData didalam list adalah : \n";
+            node *currentnode = START;
+            while (currentnode != NULL) {
+                cout << currentnode->noMhs << endl;
+                currentnode = currentnode->next;
+            }
+            cout << endl;
+        }
+    }
+};
 
 
 
