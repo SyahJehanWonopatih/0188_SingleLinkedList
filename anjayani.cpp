@@ -9,7 +9,15 @@ class node {
 };
 
 class SingelLinkedList {    //membuat class SingelLinkedList
-   
+    node *START;
+
+    public: //membuat aksesnya menjadi public
+        SingelLinkedList() {        
+            START = NULL;
+        }
+
+        
+    
 };
 
 
