@@ -52,9 +52,19 @@ class SingelLinkedList {    //membuat class SingelLinkedList
             return (START == NULL);
         }
 
-      
-        };
-    
+        bool Search(int nim, node **previous, node ** current) {    //membuat fungsi untuk mencari kode
+            *previous = START;  
+            *current = START;
+
+            while ((*current != NULL) && (nim != (*current)->noMhs)) {
+                *previous = *current;
+                *current = (*current)->next;
+            }
+            return (*current != NULL);
+        }
+        
+    };
+
 
 
 
