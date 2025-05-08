@@ -112,6 +112,23 @@ int main() {    //memnaggil interger ke main
             }
             break;
 
+            case '2': { //membuat fungsi case 2
+                if (mhs.ListEmpty()) {
+                    cout << endl
+                         << "List kosong" << endl;
+                    break;
+                }
+                cout << endl
+                     << "\nMasukkan Nomor Mahasiswa yang akan dihapus : ";
+                cin >> nim;
+                if (mhs.delNode(nim) == false) 
+                    cout << endl
+                         << "Data tidak ditemukan" << endl;
+                else 
+                    cout << endl
+                         << " Data dengan nomor mahasiswa " << nim << " berhasil di hapus " << endl;
+            }
+            break;
             
     }
 }
