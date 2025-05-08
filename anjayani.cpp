@@ -133,6 +133,27 @@ int main() {    //memnaggil interger ke main
                 mhs.traverse();
             }
             break;
+            case '4': { //membuat fungsi case 4
+                if (mhs.ListEmpty() == true) {
+                    cout << "\nList kosong" << endl;
+                    break;
+                }
+                node *previous, *current;
+                cout << endl
+                     << "\nMasukkan Nomor Mahasiswa yang dicari : ";
+                cin >> nim;
+                if (mhs.Search(nim, &previous, &current) == false) 
+                    cout << "Data tidak ditemukan" << endl;
+                else {
+                    cout << endl
+                         << "Data ditemukan" << endl;
+                    cout << "\nNomor Mahasiswa : " << current->noMhs << endl;
+                    cout << "\n";
+                }
+                
+
+            }
+            break;
             
     }
 }
