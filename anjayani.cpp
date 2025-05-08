@@ -154,7 +154,16 @@ int main() {    //memnaggil interger ke main
 
             }
             break;
-            
+            case '5': { //membuat fungsi case 5
+                exit(0);
+            }
+            break;
+            default: {
+                cout << "Pilihan tidak valid !." << endl;
+            }
+            break;
+        }
+        while (ch != '5');
     }
 }
 
