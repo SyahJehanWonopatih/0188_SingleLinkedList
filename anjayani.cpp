@@ -48,10 +48,13 @@ class SingelLinkedList {    //membuat class SingelLinkedList
             previous->next = nodeBaru;
 
         }
-        
+        bool ListEmpty() {  //cek apakah list kosong
+            return (START == NULL);
         }
-    
 
+      
+        };
+    
 
 
 
