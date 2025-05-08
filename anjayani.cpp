@@ -90,5 +90,12 @@ class SingelLinkedList {    //membuat class SingelLinkedList
     }
 };
 
+int main() {    //memnaggil interger ke main 
+    SingelLinkedList mhs;
+    int nim;
+    char ch;
+    
+}
+
 
 
